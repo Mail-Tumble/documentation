@@ -3,7 +3,7 @@ post:
     - Alias
   summary: Add email
   description: Add one or more Emails to a specified List.
-  operationId: echo
+  operationId: newAlias
   security:
     - api_key: []
     - basic_auth: []
@@ -38,7 +38,7 @@ get:
     - Alias
   summary: get alias
   description: Request Details of an ALIAS, with a specified ALIAS ID .
-  operationId: echo
+  operationId: getAlias
   security:
     - api_key: []
     - basic_auth: []

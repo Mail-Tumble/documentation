@@ -3,7 +3,7 @@ post:
     - List
   summary: New List
   description: Receive the exact message you've sent
-  operationId: echo
+  operationId: newList
   security:
     - api_key: []
     - basic_auth: []
@@ -42,7 +42,7 @@ get:
     - List
   summary: Get Lists
   description: Retreive the Lists associated with the authenticated account.
-  operationId: echo
+  operationId: getList
   security:
     - api_key: []
     - basic_auth: []
