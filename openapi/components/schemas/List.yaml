@@ -1,0 +1,13 @@
+description: List of aliases
+type: object
+required:
+- name
+properties:
+  name:
+    type: string
+  domain:
+    type: string
+  name:
+    type: string
+  status: 
+    type: string
